@@ -1,0 +1,367 @@
+.scroll{
+    max-height: 100px;
+    overflow: auto;
+}
+.logo {
+    width: 180px;
+    height: 70px;
+    margin-left: 50px;
+}
+.main{
+    background-color: white;
+}
+.banner-section-bg-container {
+    background-image: url("hero.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: rgb(18, 18, 18);
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #181818;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+#about {
+    padding: 50px 0;
+    background-color: #f9fbfe;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #about h2 {
+    font-size: 2.3rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #about .small {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 600;
+  }
+  
+  .about-img {
+    flex: 1 1 400px;
+    padding: 30px;
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards;
+  }
+  
+  @keyframes about-img-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .about-text {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150%);
+    animation: about-text-animation 1s ease-in-out forwards;
+  }
+  
+  @keyframes about-text-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .about-img img {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+  }
+.custom-button {
+    color: white;
+    background-color: orange;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: orange;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 8px;
+}
+.sec{
+    background-color:#f9fbfe ;
+}
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+.freshimg{
+    width: 250px;
+}
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 140px;
+    height: 120px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.carousel-item img{
+ height: 100vh;
+}
+.thumbnail {
+    position: relative;
+    margin-bottom: 0;
+    border: 0;
+    border-color: transparent;
+}
+
+.container{
+    position: absolute;
+    top: 5%;
+    
+}
+.something-container{
+    position:relative;
+    
+}
+.something-text{
+    position: absolute;
+    color:white;
+}
+.card-title{
+    font-size: 20px;
+}
+.buttonbox{
+    margin-top: 23px;
+}
+.card{
+    margin-bottom: 10px;
+}
+.grid1{
+    width: 100%;
+    height: 560px;
+    padding: 30px;
+}
+.visitus{
+    background-color:#f9fbfe;
+}
+.bg-dark{
+    max-height: 500px;
+}
+.card-img{
+    max-height: 500px;
+}
+.buttons {
+    border: 1px solid orange;
+    color: orange !important;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.buttons:hover {
+    border: 1px solid #ffffff;
+    background-color: orange;
+    color: #ffffff !important;
+    transition: background-color 1s, border 1s, color 1s;
+}
+
+.custom-link {
+    padding: 15px 0;
+}
+
+.container p {
+    margin: 25px 0;
+    max-width: 400px;
+}
+
+@media(max-width: 767px){ 
+
+    .container-custom {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.img-fluid{
+    margin-top: 40px;
+    background-size: cover;
+}
+.sectionimage1 img{
+    width: 100%;
+    height: 130vh;
+}
+
+
+.logo1 {
+    width: 50px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#contact {
+    padding: 5rem 0;
+    background-color:#f9fbfe;
+  }
+  
+  .contact-container {
+    display: flex;
+    background: #fff;
+  }
+  
+  .contact-img {
+    width: 50%;
+  }
+  
+  .contact-img img {
+    display: block;
+    height: 400px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  .form-container {
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .form-container input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  .form-container textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    color: #444;
+    outline: none;
+    padding: 1rem 0;
+    resize: none;
+  }
+  
+  .form-container h2 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+  }
+  
+  .form-container a {
+    font-size: 1.3rem;
+  }
+  
+  #footer h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 2.6rem;
+    font-weight: 500;
+    color: #fff;
+    background: rgb(65, 65, 65);
+  }
+  
